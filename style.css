@@ -17,20 +17,9 @@ body {
 .container {
     background: white;
     width: 900px;
+    height: 325px;
     border-radius: 20px;
 
     display: flex;
 }
 
-.article-picture {
-    height: 100px;
-    width: 300px;
-    background-image: url("images/drawers.jpg");
-    background-position: bottom;
-    
-}
-
-.user {
-    display: flex;
-    flex-direction: column;
-}
