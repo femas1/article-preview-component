@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    background-color: lightcoral;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    width: 900px;
+    border-radius: 20px;
+
+    display: flex;
+}
+
+.article-picture {
+    height: 100px;
+    width: 300px;
+    background-image: url("images/drawers.jpg");
+    background-position: bottom;
+    
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+}
