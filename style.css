@@ -19,7 +19,50 @@ body {
     width: 900px;
     height: 325px;
     border-radius: 20px;
-
     display: flex;
 }
 
+.article-picture img{
+    height: 325px;
+}
+
+.article {
+    padding: 1.5rem;
+}
+
+.article-heading {
+    font-size: 22px;
+}
+
+.article-text {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.user {
+    display: flex;
+    margin-top: 20px;
+}
+
+.user__share {
+    margin-left: auto;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: hsl(210, 46%, 95%);
+    margin-right: 5px;
+}
+
+.user__user {
+    margin-left: 10px;
+}
+.user__photo img {
+   height: 50px;
+   border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+}
