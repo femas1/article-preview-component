@@ -83,3 +83,14 @@ body {
 .filter-white{
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(150%) contrast(102%);
 }
+
+.share-popup {
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: blue;
+    clip-path: polygon(0 47%, 100% 47%, 100% 75%, 56% 76%, 50% 99%, 40% 75%, 0% 75%);
+    position: absolute;
+    transform: translate(265px, -200px);
+}
+
