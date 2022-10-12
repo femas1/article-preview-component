@@ -6,7 +6,6 @@
 
 body {
     height: 100vh;
-    background-color: lightcoral;
     font-family: 'Manrope', sans-serif;
     display: flex;
     flex-direction: column;
@@ -84,13 +83,22 @@ body {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(150%) contrast(102%);
 }
 
+
+
 .share-popup {
-    height: 150px;
-    width: 200px;
-    border-radius: 20px;
-    background-color: blue;
-    clip-path: polygon(0 47%, 100% 47%, 100% 75%, 56% 76%, 50% 99%, 40% 75%, 0% 75%);
-    position: absolute;
-    transform: translate(265px, -200px);
+    height: 55px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
+    transform: translate(293px, -165px);
+    
 }
 
+.share-popup.background{
+    height: 50px;
+    width: 100px;
+    background-color: hsl(217, 19%, 35%);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    transform: translate(365px, -95px);
+    z-index: 1;
+}
