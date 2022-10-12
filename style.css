@@ -103,7 +103,7 @@ body {
 }
 
 
-.share-popup.background{
+.popupBackground{
     height: 50px;
     width: 100px;
     background-color: hsl(217, 19%, 35%);
