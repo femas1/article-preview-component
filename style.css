@@ -6,6 +6,7 @@
 
 body {
     height: 100vh;
+    background-color: hsl(210, 46%, 95%);
     font-family: 'Manrope', sans-serif;
     display: flex;
     flex-direction: column;
@@ -14,7 +15,7 @@ body {
 }
 
 .container {
-    background: white;
+    background: #fff;
     width: 900px;
     height: 325px;
     border-radius: 20px;
@@ -23,6 +24,7 @@ body {
 
 .article-picture img{
     height: 325px;
+    border-radius: 10px 0 0 10px;
 }
 
 .article {
@@ -123,6 +125,44 @@ body {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+/* TABLET AND SMALL SCREEN STYLING */
+
+@media (max-width: 900px) {
+    .container {
+        width: 700px
+    }
+
+    .article-picture img {
+        width: 350px;
+    }
+
+    .article-heading {
+        font-size: 16px;
+    }
+
+    .article-text {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 700px
+    }
+
+    .article-picture img {
+        width: 350px;
+    }
+
+    .article-heading {
+        font-size: 16px;
+    }
+
+    .article-text {
+        font-size: 13px;
+    }
 }
 
 .hidden {
