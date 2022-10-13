@@ -147,21 +147,33 @@ body {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
     .container {
-        width: 700px
+        flex-direction: column;
+        width: 375px;
+        height: 650px;
     }
 
     .article-picture img {
-        width: 350px;
+        width: 375px;
+        border-radius: 10px 10px 0 0;
     }
 
     .article-heading {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .article-text {
-        font-size: 13px;
+        font-size: 15px;
+    }
+
+    .share-popup {
+        transform: translate(170px, -185px);
+   }
+    
+    
+    .popupBackground{
+        transform: translate(246px, -105px);
     }
 }
 
