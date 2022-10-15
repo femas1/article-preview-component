@@ -145,6 +145,16 @@ body {
     .article-text {
         font-size: 13px;
     }
+
+    .share-popup {
+        width: 200px;
+        transform: translate(165px, -185px);
+    }
+    
+    .popupBackground{
+        width: 80px;
+        transform: translate(230px, -105px);
+    }
 }
 
 @media (max-width: 700px) {
